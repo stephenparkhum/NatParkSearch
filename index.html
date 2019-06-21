@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <title>Vacation Search</title>
+</head>
+
+<body>
+    <header>
+        <h1>Park Search</h1>
+    </header>
+    <main>
+        <form>
+            <label for="state-serach">State</label>
+            <input type="text" name="state-search" id="state-search" placeholder="State Search">
+            <label for="result-num">Number of Results</label>
+            <input type="number" name="result-num" id="result-num" placeholder="10" min="10" max="50">
+            <input type="submit" value="FIND">
+        </form>
+        <div class="results hidden">
+            <h2>Results</h2>
+        </div>
+    </main>
+    <script src="main.js"></script>
+</body>
+
+</html>
